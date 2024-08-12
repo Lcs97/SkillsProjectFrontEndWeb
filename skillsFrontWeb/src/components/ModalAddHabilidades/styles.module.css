@@ -1,0 +1,28 @@
+.modalContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.modalButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botaoSalvar {
+    background-color: #36A420;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botaoCancelar {
+    background-color: #FF6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

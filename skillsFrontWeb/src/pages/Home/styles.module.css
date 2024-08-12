@@ -1,0 +1,47 @@
+.backgroundContainer {
+    background-image: url('../../public/background3.gif');
+    background-size: cover;
+    background-position: center;
+    height: 76.7vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    height: 30vh;
+    width: 25vw;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    background-color: #c1c3c791;
+}
+
+.habilidadeListContainer {
+    max-height: 200px; 
+    overflow-y: auto; /*Habilita o scroll vertical*/
+    margin-bottom: 20px;
+}
+
+.botaoAdicionar, .botaoLogout {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botaoAdicionar {
+    background-color: #36A420;
+    color: white;
+}
+
+.botaoLogout {
+    background-color: #FF6347;
+    color: white;
+}

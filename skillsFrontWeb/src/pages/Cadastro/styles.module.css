@@ -1,0 +1,83 @@
+.backgroundContainer {
+    background-image: url('../../public/background2.gif');
+    background-size: cover; /*cobre tudo*/
+    background-position: center;
+    height: 76.7vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2em;
+    border-radius: 8px;
+    background-color: #c1c3c781;
+    width: 396px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    background-color: wheat;
+    padding: 16px;
+    font-size: 16px;
+    color: #000;
+}
+
+input::placeholder {
+    color: #a0a0a0;
+}
+
+button {
+    font-size: 16px;
+}
+
+.saveButton {
+    background-color: #1877F2;
+    height: 40px;
+    width: 100%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.passwordContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.showPasswordButton {
+    position: absolute;
+    right: 20px;
+    top: 80%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #888;
+    cursor: pointer;
+    padding: 0;
+}
+
+.successMessage {
+    color: green;
+    font-size: 16px;
+    text-align: center;
+}

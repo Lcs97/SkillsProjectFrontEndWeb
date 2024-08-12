@@ -1,0 +1,20 @@
+.modalContainer {
+    position: fixed;
+    align-items: center;
+}
+
+.modal {
+    background-color: white;
+    padding: 25px;
+    width: 18vw;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.botaoFechar {
+    position: relative;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 330px;
+    background-color: white;
+}

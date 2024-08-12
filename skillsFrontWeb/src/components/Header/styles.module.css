@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c1c3c7;
+    padding: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+}
